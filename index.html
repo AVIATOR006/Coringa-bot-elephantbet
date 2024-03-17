@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        /* Estilos para o corpo do site */
+        body {
+            background-color: black;
+            font-family: Arial, sans-serif;
+            margin: 0; /* Remover margens padrão */
+            padding: 0; /* Remover preenchimento padrão */
+        }
+
+        /* Estilos para a barra no canto superior */
+        .top-bar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Estilos para o texto dentro da barra */
+        .text-in-bar {
+            color: #fff;
+        }
+
+        /* Estilos para os botões */
+        .button {
+            background-color: transparent;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin: 0 5px;
+        }
+
+        /* Estilos específicos para os botões azuis */
+        .button-blue {
+            background-color: blue;
+        }
+
+        /* Estilos para o conteúdo principal */
+        .content {
+            padding: 20px;
+            color: #fff; /* Cor do texto principal */
+        }
+
+        /* Estilos para o iframe */
+        iframe {
+            width: 100%;
+            height: 80vh; /* Define a altura do iframe */
+            border: none; /* Remove a borda do iframe */
+        }
+
+        /* Estilos para o diálogo */
+        .dialogue {
+            background-color: #333;
+            color: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            border: 2px solid #fff;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="top-bar" id="top-bar">
+    <button class="button button-blue" id="left-button">YouTube</button>
+    <div class="text-in-bar">Para evitar perdas aconselha se a criar uma nova conta mesmo que tenha uma conta aconselhamos lhe a criar uma nova conta e fazer o primeiro depósito. AGUARDE O SINAL....</div>
+    <button class="button button-blue" id="right-button">WhatsApp</button>
+</div>
+
+<div class="content">
+    <!-- Aqui está o iframe que carrega o link interno -->
+    <iframe src="https://record.elephantbet.com/_7hmWXa0LJxTKto_EPcZApGNd7ZgqdRLk/1/"></iframe>
+    
+    <div class="dialogue">
+        <p>Saiba qual a melhor casa para apostas desportivas! Olá, eu gostaria de te ajudar nas tuas dificuldades no mundo das apostas desportivas. Se desejas ter boas chances de ganhar, aconselho-te a criar uma nova conta. Mesmo que já tenhas uma, aconselho-te a criar uma nova para maximizares as tuas chances de ganhar e aproveitares todas as surpresas e benefícios que esta jornada tem para oferecer! Não percas tempo e cria já a tua nova conta. Os benefícios de teres bons resultados ao te registares são altos. Após o registo, faz um depósito de 20 ou mais para receberes bônus em dinheiro. Por exemplo, ao depositares 20, receberás 60. Quanto maior for o valor depositado, mais altos serão os bônus que terás. Além disso, terás acesso a outros benefícios exclusivos. Não percas esta oportunidade! Regista-te já para não perderes a chance de teres bons resultados e benefícios.</p>
+    </div>
+</div>
+
+<script>
+    // Array com as cores a serem exibidas no cabeçalho
+    var colors = ["purple", "pink", "blue"];
+    var colorNames = ["💜Roxo💜...Cadastre um nova conta mesmo que tenha uma.Evite perdas", "🌹Rosa🌹 2 tentativas", "💙Azul💙...Cadastre um nova conta mesmo que tenha uma.Evite perdas"];
+    var index = 0; // Índice da cor atual
+    
+    // Função para mudar a cor do texto do cabeçalho
+    function changeColor() {
+        var topBar = document.getElementById("top-bar");
+        var textInBar = document.querySelector(".text-in-bar");
+        var color = colors[index];
+
+        // Define a cor do texto de acordo com a cor de fundo
+        topBar.style.color = color; // Cor do texto acompanha a cor de fundo
+        textInBar.textContent = colorNames[index]; // Define o texto dentro da barra
+
+        // Atualiza a cor de fundo
+        topBar.style.backgroundColor = color;
+
+        index = (index + 1) % colors.length; // Avança para a próxima cor no array
+    }
+
+    // Chama a função changeColor a cada minuto
+    setInterval(changeColor, 60000); // 60000 milissegundos = 1 minuto
+
+    // Adiciona funcionalidade de redirecionamento aos botões
+    document.getElementById("left-button").addEventListener("click", function() {
+        window.location.href = "https://www.youtube.com/@coringaBot166";
+    });
+
+    document.getElementById("right-button").addEventListener("click", function() {
+        window.location.href = "https://api.whatsapp.com/send?phone=+258844096731";
+    });
+</script>
+
+<script src="https://media1.placard.co.mz/redirect.aspx?pid=3338&bid=1690"></script><script src="https://www.drv.tw/inc/wd.js?s=coringa-elephantbethacker"></script></body>
+</html>
